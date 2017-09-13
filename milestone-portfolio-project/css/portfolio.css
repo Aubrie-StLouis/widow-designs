@@ -1,0 +1,284 @@
+/***** BASE STYLES *****/
+
+body {
+	font-family: 'Cormorant SC', serif;
+	font-family: 'Cormorant', serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 1366px;
+}
+
+.half-width {
+	width: 683px;
+	float: left;
+}
+
+.third-width {
+	width: 455px;
+	float: left;
+}
+
+quarter-width {
+	width: 228px;
+}
+
+/***** HEADER *****/
+
+#back-left {
+	background: #000000;
+	height: 877px;
+	position: relative;
+}
+
+#back-right {
+	back-left: #ffffff;
+	height: 877px;
+	float: left;
+	position: relative;
+}
+
+#titlebar {
+	background: #660606;
+	clear: both;
+	height: 266px;
+	width:1246px;
+	position: absolute;
+	margin-left: 60px;
+	margin-top: 30px;
+	border-radius: 30px;
+}
+
+#widow {
+	clear: both;
+	margin: 76px 50px 96px 130px;
+	padding: 0px;
+}
+
+#design {
+	clear: both;
+	margin: 63px 0px 0px -150px;
+	padding: 0px;
+}
+	
+#logo {
+	clear: both;
+	margin-left: 65px;
+	margin-top: 33px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+#lower-half {
+	position: fixed;
+}
+
+#menu {
+	margin: 350px 20px 0px 50px;
+	position: absolute;
+}
+	
+nav ul li a {
+	font-family: 'Cormorant SC', serif;
+	float: left;
+	font-size: 48px;
+	text-decoration: none;
+	color: #ffffff;
+	line-height: 200px;
+}
+
+#spider {
+	clear: left;
+	margin: 281px 0px 0px 840px;
+}
+
+/***** ABOUT *****/
+
+#about {
+	background: #660606;
+	background-size: cover;
+	height: 877px;
+	position: relitive;
+}
+
+#home-route {
+	margin: 30px 0px 10px 30px;
+}
+
+#meet-aubrie {
+	background: #000000;
+	bacground-size: cover;
+	margin: 80px 18px;
+	border-radius: 30px;
+}
+
+#services {
+	position: absolute;
+	margin-top: 275px;
+}
+
+#help-menu {
+	width: 395px;
+	background: #000000;
+	color: #ffffff;
+	font-size: 19px;
+	text-align: center;
+	padding: 30px;
+	margin: 0px 60px;
+	border-radius: 30px;
+}
+
+#help-menu h3 {
+	font-family: 'Cormorant', serif;
+}
+
+#bio-blurb {
+	background: #000000;
+	background-size: cover;
+	color: #ffffff;
+	width: 595px;
+	margin-top: 0px;
+	margin-left: 40px;
+	border-radius: 30px;
+	max-height: 450px;
+}
+
+#me {
+	float: left;
+	margin: 20px;
+	padding: 20px;
+}
+
+#bio-blurb p {
+	width: 235px;
+	font-family: 'Cormorant', serif;
+	padding: 5px;
+	margin: 10px 40px 5px 5px;
+	float: right;
+	text-align: center;
+	font-size: 18px;
+	overflow: scroll;
+	max-height: 410px;
+}
+
+/***** GALLERY *****/
+
+#gallery {
+	background: #000000;
+	background-size: cover;
+	height: 875px;
+	position: reletive;
+}
+
+#gallery #home-route {
+	background: #ffffff;
+	background-size: cover;
+	border-radius: 200px;
+}
+
+#welcome {
+	background: #ffffff;
+	background-size: cover;
+	margin: 80px 40px;
+	border-radius: 30px;
+}
+
+#gallery h2 {
+	font-family: 'Cormorant SC', serif;
+	color: #660606;
+	margin-left: 200px;
+	font-size: 48px;
+	margin-top: 30px;
+	text-align: center;
+	position: absolute;
+}
+
+#web, #mobile, #software {
+	background: #ffffff;
+	bacground-size: cover;
+	width: 225px;
+	position: absolute;
+	border-radius: 20px;
+}
+
+#gallery p {
+	color: #660606;
+	font-size: 28px;
+	text-align: center;
+	margin: 200px 10px 0px 160px;
+	padding: 30px;
+	line-height: 30px;
+}
+
+#p-web, #p-mobile, #p-software {
+	background: #ffffff;
+	background-size: cover;
+	border-radius: 100%;
+	border: solid 10px #660606;
+	font-family: 'Cormorant', serif;
+}
+
+/***** CONTACT *****/
+
+#contact {
+	background: #ffffff;
+	background-size: cover;
+	position: relitive;
+	height: 777;
+}
+
+#contact #home-route {
+	border: solid 10px #660606;
+	border-radius: 200px;
+}
+
+#how {
+	background: #660606;
+	bacground-size: cover;
+	margin: 80px 60px 10px 0px;
+	position: absolute;
+	border-radius: 30px;
+}
+
+#contact h2 h3 {
+	position: absolute;
+}
+
+#email, #message {
+	background: #000000;
+	background-size: cover;
+	position: absolute;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 10px;
+}
+
+#email {
+	margin: 250px 510px;
+	height: 40px;
+	width: 400px;
+}
+
+#message {
+	margin: 350px 410px;
+	height: 325px;
+	font-size: 30px;
+	width: 600px;
+}
+
+#send {
+	background: #660606;
+	bacground-size: cover;
+	width: 120px;
+	height: 45px;
+	margin: 710px 650px;
+	padding: 3px;
+	position: absolute;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 10px;
+}
+
