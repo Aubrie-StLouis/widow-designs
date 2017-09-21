@@ -187,7 +187,7 @@ nav ul li a {
 	border-radius: 30px;
 }
 
-#gallery h2 {
+#web-page, #mobile-page, #software-page {
 	font-family: 'Cormorant SC', serif;
 	color: #660606;
 	margin-left: 200px;
@@ -197,13 +197,14 @@ nav ul li a {
 	position: absolute;
 }
 
-#web, #mobile, #software {
+#web-page, #mobile-page, #software-page {
 	background: #ffffff;
 	bacground-size: cover;
 	width: 225px;
 	position: absolute;
 	border-radius: 20px;
 }
+	
 
 #gallery p {
 	color: #660606;
@@ -220,6 +221,37 @@ nav ul li a {
 	border-radius: 100%;
 	border: solid 10px #660606;
 	font-family: 'Cormorant', serif;
+}
+
+/***** WEB-GALLERY *****/
+
+#web-gallery {
+	background: #660606;
+	background-size: cover;
+	position: relitive;
+	height: 1100px;
+}
+
+#web-gallery #home-route {
+	border: solid 10px #ffffff;
+	border-radius: 200px;
+}
+
+#web-world {
+	background: #ffffff;
+	background-size: cover;
+	border-radius: 10px;
+	margin: 80px 60px 10px 0px;
+}
+
+#intro {
+	background: #ffffff;
+	background-size: cover;
+	border-radius: 10px;
+	clear: both;
+	margin-left: 50px;
+	font-size: 30px;
+	text-align: center;
 }
 
 /***** CONTACT *****/
