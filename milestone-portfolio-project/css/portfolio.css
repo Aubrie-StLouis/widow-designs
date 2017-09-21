@@ -99,7 +99,7 @@ nav ul li a {
 #about {
 	background: #660606;
 	background-size: cover;
-	height: 877px;
+	height: 870px;
 	position: relitive;
 }
 
@@ -170,7 +170,7 @@ nav ul li a {
 #gallery {
 	background: #000000;
 	background-size: cover;
-	height: 875px;
+	height: 880px;
 	position: reletive;
 }
 
@@ -205,7 +205,6 @@ nav ul li a {
 	border-radius: 20px;
 }
 	
-
 #gallery p {
 	color: #660606;
 	font-size: 28px;
@@ -229,7 +228,7 @@ nav ul li a {
 	background: #660606;
 	background-size: cover;
 	position: relitive;
-	height: 1100px;
+	height: 1200px;
 }
 
 #web-gallery #home-route {
@@ -254,13 +253,128 @@ nav ul li a {
 	text-align: center;
 }
 
+#jubilee {
+	padding: 0px;
+	margin: 0px -40px 0px 129px;
+}
+
+#nctc {
+	padding: 0px;
+	margin: 0px 10px 0px -30px;
+}
+
+#maeven {
+	padding: 0px;
+	margin: 0px 0px 0px -88px;
+}
+
+#lovely-rita {
+	padding: 0px;
+	margin: 50px 0px 20px 325px;
+}
+
+#stlouis-style {
+	padding: 0px;
+	margin: 50px 0px 20px -325px;
+}
+
+/***** MOBILE-GALLERY *****/
+
+#mobile-gallery {
+	background: #ffffff;
+	background-size: cover;
+	position: relative;
+	height: 800px;
+}
+
+#mobile-gallery #home-route {
+	border: solid 10px #660606;
+	border-radius: 200px;
+}
+
+#mobile-world {
+	background: #660606;
+	background-size: cover;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 50px 0px 20px 30px;
+}
+
+#mobile-gallery h1 {
+	background: #660606;
+	background-size: cover; 
+	border-radius: 10px;
+	color: ffffff;
+	text-align: center;
+	padding: 10px;
+	margin: 0px 0px 20px 50px;
+	clear: both;
+}
+
+#mobile-gallery p {
+	background: #660606;
+	background-size: cover;
+	border-radius: 10px;
+	color: ffffff;
+	font-size: 32px;
+	text-align: center;
+	padding: 0px;
+	margin: 50px 0px 20px 50px;
+}
+
+/***** SOFTWARE-GALLERY *****/
+
+#software-gallery {
+	background: #000000;
+	background-size: cover;
+	position: relative;
+	height: 800px;
+}
+
+#software-gallery #home-route {
+	background: #ffffff;
+	background-size: cover;
+	border-radius: 200px;
+	padding: 5px;
+}
+
+#software-world {
+	background: #ffffff;
+	background-size: cover;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 50px 0px 20px 30px;
+}
+
+#software-gallery h1 {
+	background: #ffffff;
+	background-size: cover; 
+	border-radius: 10px;
+	color: #000000;
+	text-align: center;
+	padding: 10px;
+	margin: 0px 0px 20px 50px;
+	clear: both;
+}
+
+#software-gallery p {
+	background: #ffffff;
+	background-size: cover;
+	border-radius: 10px;
+	color: #000000;
+	font-size: 32px;
+	text-align: center;
+	padding: 0px;
+	margin: 50px 0px 20px 50px;
+}
+	
 /***** CONTACT *****/
 
 #contact {
 	background: #ffffff;
 	background-size: cover;
-	position: relitive;
-	height: 777;
+	height: 820px;
+	position: relative;
 }
 
 #contact #home-route {
