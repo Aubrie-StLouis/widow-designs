@@ -100,7 +100,7 @@ quarter-width {
 	background: #660606;
 	background-size: cover;
 	height: 870px;
-	position: relitive;
+	position: relative;
 }
 
 #home-route {
@@ -109,9 +109,9 @@ quarter-width {
 	border-radius: 200px;
 }
 
-#meet-aubrie {
+#about #intro {
 	background: #000000;
-	bacground-size: cover;
+	background-size: cover;
 	margin: 80px 18px;
 	border-radius: 30px;
 }
@@ -182,11 +182,10 @@ quarter-width {
 
 /***** GALLERY *****/
 
-#gallery {
+#gallery header {
 	background: #000000;
 	background-size: cover;
-	height: 880px;
-	position: relative;
+	height:350px;
 }
 
 #gallery #home-route {
@@ -195,10 +194,10 @@ quarter-width {
 	border-radius: 200px;
 }
 
-#welcome {
+#gallery #intro {
 	background: #ffffff;
 	background-size: cover;
-	margin: 80px 0px 80px -180px;
+	margin: 80px 0px 80px -170px;
 	border-radius: 30px;
 }
 
@@ -217,6 +216,12 @@ quarter-width {
 	margin: 70px 0px 0px 0px;
 }
 
+#gallery main {
+	background: #000000;
+	background-size: cover;
+	height: 600px;
+}
+
 #web-page, #mobile-page, #software-page {
 	font-family: 'Cormorant SC', serif;
 	color: #660606;
@@ -224,14 +229,13 @@ quarter-width {
 	font-size: 48px;
 	margin-top: 30px;
 	text-align: center;
-	position: absolute;
+	padding: 10px;
 }
 
 #web-page, #mobile-page, #software-page {
 	background: #ffffff;
 	background-size: cover;
 	width: 225px;
-	position: absolute;
 	border-radius: 20px;
 }
 	
@@ -239,18 +243,16 @@ quarter-width {
 	color: #660606;
 	font-size: 28px;
 	text-align: center;
-	margin: 200px 10px 0px 160px;
-	padding: 30px;
-	line-height: 30px;
-}
-
-#p-web, #p-mobile, #p-software {
+	margin: 80px 10px 0px 160px;
+	padding: 40px;
+	line-height: 25px;
+	border-radius: 100%;
 	background: #ffffff;
 	background-size: cover;
-	border-radius: 100%;
 	border: solid 10px #660606;
 	font-family: 'Cormorant', serif;
 }
+
 
 /***** WEB-GALLERY *****/
 
@@ -428,11 +430,10 @@ quarter-width {
 	margin-top: 70px;
 }
 
-#how {
+#contact #intro {
 	background: #660606;
-	bacground-size: cover;
+	background-size: cover;
 	margin: 80px 0px 10px -170px;
-	position: relative;
 	border-radius: 30px;
 }
 
